@@ -2,8 +2,8 @@
 
 note to self: can't test this until Chrome releases catch up with the docs, see these bug:
 
-https://github.com/DefinitelyTyped/DefinitelyTyped/discussions/60380
-https://github.com/GoogleChrome/developer.chrome.com/issues/2602
+* https://github.com/DefinitelyTyped/DefinitelyTyped/discussions/60380
+* https://github.com/GoogleChrome/developer.chrome.com/issues/2602
 
 > The repository for *high quality* TypeScript type definitions.
 
