@@ -1,5 +1,10 @@
 # Definitely Typed
 
+note to self: can't test this until Chrome releases catch up with the docs, see these bug:
+
+https://github.com/DefinitelyTyped/DefinitelyTyped/discussions/60380
+https://github.com/GoogleChrome/developer.chrome.com/issues/2602
+
 > The repository for *high quality* TypeScript type definitions.
 
 *You can also read this README in [Español](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/README.es.md), [한국어](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/README.ko.md), [Русский](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/README.ru.md), [中文](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/README.zh.md), [Português](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/README.pt.md), [Italiano](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/README.it.md)
