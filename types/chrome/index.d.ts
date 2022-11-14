@@ -143,6 +143,11 @@ declare namespace chrome.action {
         tabId?: number | undefined;
     }
 
+    export interface OpenPopupOptions {
+        /** Optional. The id of the window to open the action popup in. Defaults to the currently-active window if unspecified. */
+        windowId?: number | undefined;
+    }
+
     /**
      * Since Chrome 88.
      * Disables the action for a tab.
@@ -237,6 +242,16 @@ declare namespace chrome.action {
      * @return The `getTitle` method provides its result via callback or returned as a `Promise` (MV3 only).
      */
     export function getTitle(details: TabDetails): Promise<string>;
+
+    /**
+     * Since Chrome 99.
+     * Opens the extension's popup.
+     *
+     * @param options Specifies options for opening the popup.
+     * @param callback
+     * @return This only returns a `Promise` when the `callback` parameter is not specified, and with MV3+. The type inside the `Promise` is the same as the 1st argument to `callback`.
+     */
+    export function openPopup(options?: OpenPopupOptions, callback?: () => void): Promise<void>;
 
     /**
      * Since Chrome 88.
